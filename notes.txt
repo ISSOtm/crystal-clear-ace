@@ -1,0 +1,34 @@
+SRA0
+A000-A5FF (scratch)
+A600-AC6A (SRA0)
+-> $595 bytes
+B200-BF11 (Backup)
+-> $EE slack
+
+SRA1
+A000-AD0F (Save file)
+AD10-B253 (Curr box)
+B254-B2BF (Link battle)
+B2C0-BE3B (HoF)
+BE3C-BE44 (Crystal data (?))
+BE45-BE56 (battle tower)
+-> $1A9 slack
+
+SRA2
+A000-BE2F (box 1-7)
+-> $1D0 slack
+
+SRA3
+A000-BE2F (box 8-14)
+-> $1D0 slack
+
+
+Recommended to avoid SRA4+ due to issues
+
+SRA4 empty
+
+SRA5
+A000-AA5B (mobile)
+-> $15A4 slack
+
+SRA6-F empty

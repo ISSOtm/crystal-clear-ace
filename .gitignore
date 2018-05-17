@@ -1,0 +1,7 @@
+*.gbc
+*.sym
+*.map
+*.o
+pokecrystal_ace.sav
+
+.vscode
