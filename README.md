@@ -9,7 +9,7 @@ Inspired by [MrCheeze's R/B "Virus"](https://github.com/MrCheeze/pokered-self-re
 
 Any save file can be patched with the exploit using Make, [RGBDS](https://github.com/rednex/rgbds) and Python 3. Simply replace `base_file.sav` with the save file to be patched, then run `make`. (The original file will be left untouched, if you're wondering.)
 
-**NOTE**: The save file may not include RTC data, which some emulators such as VBA append to the save file. If you get an error about overlay files requiring alignment, please run `make rtc` **BROKEN FOR NOW, HELP APPRECIATED**.
+**NOTE**: The save file may not include RTC data, which some emulators such as VBA append to the save file. If you get an error about overlay files requiring alignment, please rename `base_file.sav` to `original.sav`, then run `make rtc`. `original.sav` will be left untouched.
 
 `make run` attempts to launch BGB to run the game using this save file. You will probably need to edit the `BGB` variable in the Makefile to spell the command required to launch BGB.
 

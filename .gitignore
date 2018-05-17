@@ -2,6 +2,6 @@
 *.sym
 *.map
 *.o
-pokecrystal_ace.sav
+*.sav
 
 .vscode
